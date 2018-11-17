@@ -1,4 +1,4 @@
-传统ssm模式，采用vertx直接改造，适用分布式集群扩展，适用于单机应用，应对于流量激增和分布式扩展，从一台服务器，扩展成集群
+传统ssm模式，采用vertx直接改造，适用分布式集群扩展，可以从一台服务器，扩展成集群，不需要nginx，不需要redis。
 
 This project shows how you can setup a clustered Vert.x embedded in Spring Boot, having the Spring container managing Hazelcast.
 
