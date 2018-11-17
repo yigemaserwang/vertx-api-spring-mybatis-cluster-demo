@@ -1,0 +1,11 @@
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/service/ArticleService.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/dao/ArticleMapper.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/vertx/RestApiVerticle.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/model/TblArticle.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/model/package-info.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/vertx/SpringVerticleFactory.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/VertxClusterConfig.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/VertXRunner.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/DataSourceConfig.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/vertx/ArticleDaoVerticle.java
+/Users/a/Documents/vertxV/vertx-api-spring-mybatis-cluster-demo/src/main/java/cn/monkey/service/AsyncArticleService.java

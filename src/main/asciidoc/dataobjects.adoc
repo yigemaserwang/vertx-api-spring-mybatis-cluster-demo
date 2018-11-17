@@ -1,0 +1,15 @@
+= Cheatsheets
+
+[[TblArticle]]
+== TblArticle
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[fld_content]]`fld_content`|`String`|-
+|[[fld_title]]`fld_title`|`String`|-
+|[[id]]`id`|`Number (int)`|-
+|===
+

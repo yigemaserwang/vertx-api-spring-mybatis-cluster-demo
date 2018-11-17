@@ -1,0 +1,12 @@
+cn/monkey/VertxClusterConfig.class
+cn/monkey/model/TblArticle.class
+cn/monkey/model/package-info.class
+cn/monkey/dao/ArticleMapper.class
+cn/monkey/vertx/SpringVerticleFactory.class
+cn/monkey/vertx/ArticleDaoVerticle.class
+cn/monkey/DataSourceConfig.class
+cn/monkey/vertx/RestApiVerticle.class
+cn/monkey/service/AsyncArticleService.class
+cn/monkey/model/TblArticleConverter.class
+cn/monkey/service/ArticleService.class
+cn/monkey/VertXRunner.class

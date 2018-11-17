@@ -1,0 +1,55 @@
+
+This project shows how you can setup a clustered Vert.x embedded in Spring Boot, having the Spring container managing Hazelcast.
+
+and you can easy change  old ssm pattern (spring springmvc mybatis) to suit it.
+
+
+== The application.properties
+
+The host should be set the machine address which runing server, that can be used when servers run different machine.
+
+host=xxx.xxx.xxx.xxx
+
+
+== Trying
+
+To see clustering in action, you should start multiple instances of this application.
+The HTTP server will be setup only if you provide an `httpPort` system property.
+
+[source,shell]
+----
+mvn clean package
+----
+
+
+So you can start the first instance with an HTTP server on port 8080:
+
+
+[source,shell]
+----
+mvn spring-boot:run -DhttpPort=8080
+----
+
+Then start the other instances without the HTTP server:
+
+[source,shell]
+----
+mvn spring-boot:run
+----
+
+And then start the other instances the other without the HTTP server:
+
+[source,shell]
+----
+mvn spring-boot:run
+----
+
+It's time for testing now:
+
+[source,shell]
+----
+seq 10 | while read i; do curl http://localhost:8080/article/findAll; echo; done
+----
+----
+seq 10 | while read i; do curl -d  "fld_title=mytitle${i}&fld_content=mycontent${i}" "http://localhost:8080/article/add"; echo; done
+----
